@@ -1,7 +1,8 @@
 # pool_project
 Computer Science Capstone Project from my Freshmen Fall of Undergrad
 
-Note: this was written for vidle in Python 2.x if I remember correctly.
+Note: this was written for vidle in Python 2.x with VPython 6
+if I remember correctly.
 
 The final.txt document explains instructions in for how to play the game
 and a couple minor things that were left unfinished (the sticking "bug"
