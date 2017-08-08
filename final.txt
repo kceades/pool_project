@@ -1,0 +1,51 @@
+Caleb Eades and Christian Guerrero
+VPool final project
+Kuenning
+CS 5 Black
+15 December, 2012
+
+
+Description:
+	In this VPython version of pool, we sought to create a highly realistic 
+representation of a standard pool game.  While this was successful in many 
+areas, there were some where the game is amiss.  Most noticeably, the pockets 
+are not sunk into the table but rather are quarter and half circles on the table 
+for corner and side pockets, respectively.  Another flaw is that sometimes two 
+balls get stuck together on the break shot, but after they are hit again, they 
+appear to never stick together again (this could be a "feature").  Also, the 
+first player doesn't lose if they scratch on the break shot and balls are not 
+quite properly arranged when taken out after a player scratches and hits them 
+in on the same turn (although all balls of that player's color that were hit in 
+on the turn are indeed taken out).  Yet another "feature" of the game is that 
+you can hit balls behind the second side dot on a shot where you get to set the 
+position of the cue ball, but the position of the cue ball must be within the 
+first two side dots and not where another ball already is.  One last "feature" 
+is that you don't have to call the pocket for the eight ball shot and if you 
+scratch on the eight ball shot, you don't lose.
+	This a two-player game with players 1 and 2 who take turns shooting in 
+a standard 15-ball pool game.
+	There are also two totally awesome special modes that can be played in
+if chosen at the start of the game.
+
+
+Objectives:
+	The objective of the game is to hit all of your balls (red or blue) in 
+and then hit the eight ball in in order to win.  If you hit the eight ball in, 
+however, without all your balls in, then you lose.  After the first ball is hit 
+in, a screen pops up that states the color of each player.
+
+
+Instructions:
+	Rotate the view at any time by right-clicking and dragging across the 
+mousepad.
+	At the start (and after any subsequent scratch), set the position of 
+the cue ball with the directional keys and press "s" to set this.
+	After the screen with the player's turn pops up, rotate the cue stick 
+with "c" and "v" for small rotations and "f" and "g" for large rotations.  Once 
+again, set this angle with "s".
+	After setting the angle, increase the power with "m" up to five times.  
+Decrease the power with "l".  Set this power with the "s" key.  Note that if no 
+power is selected, then it will automatically become level one.
+	If a ball of your color is hit in, then you shot again (provided you 
+didn't scratch).  Otherwise, it is the other player's turn, except in cases 
+regarding the eight ball being hit in.
